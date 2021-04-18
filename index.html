@@ -8,6 +8,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
+    <script type="text/javascript">
+      function toggleBG(){
+        document.getElementsByTagName("BODY")[0].classList.toggle("alt-bg")
+      }
+    </script>
+    <div class="bg-btn" onclick="toggleBG()">
+
+    </div>
     <h1>Demo Interactive Noise Over Image with P5.js</h1>
     <div class="content">
       <div class="showcase">
@@ -25,14 +33,14 @@
       </div>
 
       <div class="showcase">
-        <h2>Noise with transparent background <br> [Constrained]</h2>
+        <h2>Noise without background <br> [Constrained]</h2>
         <p>The image background gets transparent when noise appears.</p>
         <p>Pure white never gets noisy.</p>
             <iframe src="p5-noise-over-img-constrained-transparent-bg/index.html" width="400" height="579" frameBorder="0"></iframe>
       </div>
 
       <div class="showcase">
-        <h2>Noise with white transparent</h2>
+        <h2>Noise without background</h2>
         <p>The image background gets transparent white when noise appears.</p>
         <p>Pure white gets noisy when mouse reach the right border.</p>
             <iframe src="p5-noise-over-img-transparent-bg/index.html" width="400" height="579" frameBorder="0"></iframe>

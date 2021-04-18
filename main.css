@@ -4,15 +4,14 @@ body{
   text-align: center;
   margin: 0;
   padding: 0;
-}
-
-html, body{
-  background: black;
+  background-color: black;
 }
 
 p{
   font-weight: normal;
 }
+
+
 
 .content{
   margin: 0;
@@ -22,6 +21,26 @@ p{
 h1::selection, h2::selection, h3::selection, h4::selection, p::selection{
   background: white;
   color: black;
+}
+
+.bg-btn{
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+body.alt-bg .bg-btn{
+  background-color: black;
+}
+
+body.alt-bg{
+  background-color: red;
 }
 
 .showcase{
