@@ -12,7 +12,6 @@ function setup() {
   img.loadPixels();
 }
 document.getElementsByTagName("BODY")[0].onmousemove = function (){
-  console.log("Mouse Over");
   loadPixels();
 
 
