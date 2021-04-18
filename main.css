@@ -1,0 +1,37 @@
+body{
+  font-family: 'Space Mono', monospace;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  background: black;
+}
+
+p{
+  font-weight: normal;
+}
+
+.content{
+  margin: 0;
+  padding: 0;
+}
+
+h1::selection, h2::selection, h3::selection, h4::selection, p::selection{
+  background: white;
+  color: black;
+}
+
+.showcase{
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 400px;
+  display: inline-block;
+  text-align: left;
+}
+
+iframe{
+  user-select: none;
+}

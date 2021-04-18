@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Demo Noise over image</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Demo Interactive Noise Over Image with P5.js</h1>
+    <div class="content">
+      <div class="showcase">
+        <h2>Noise with white background <br> [Constrained]</h2>
+        <p>The image background remains white when noise appears.</p>
+        <p>Pure white never gets noisy.</p>
+            <iframe src="p5-noise-over-img-constrained/index.html" width="400" height="579" frameBorder="0"></iframe>
+      </div>
+
+      <div class="showcase">
+        <h2>Noise with white background</h2>
+        <p>The image background remains white when noise appears.</p>
+        <p>Pure white gets noisy when mouse reach the right border.</p>
+            <iframe src="p5-noise-over-img/index.html" width="400" height="579" frameBorder="0"></iframe>
+      </div>
+
+      <div class="showcase">
+        <h2>Noise with transparent background <br> [Constrained]</h2>
+        <p>The image background gets transparent when noise appears.</p>
+        <p>Pure white never gets noisy.</p>
+            <iframe src="p5-noise-over-img-constrained-transparent-bg/index.html" width="400" height="579" frameBorder="0"></iframe>
+      </div>
+
+      <div class="showcase">
+        <h2>Noise with white transparent</h2>
+        <p>The image background gets transparent white when noise appears.</p>
+        <p>Pure white gets noisy when mouse reach the right border.</p>
+            <iframe src="p5-noise-over-img-transparent-bg/index.html" width="400" height="579" frameBorder="0"></iframe>
+      </div>
+    </div>
+
+
+  </body>
+</html>
