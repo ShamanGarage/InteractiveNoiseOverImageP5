@@ -32,6 +32,12 @@ h1::selection, h2::selection, h3::selection, h4::selection, p::selection{
   text-align: left;
 }
 
+footer{
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
 iframe{
   user-select: none;
 }
